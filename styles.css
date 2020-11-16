@@ -7,7 +7,12 @@
 .dice {
   text-align: center;
   display: inline-block;
+}
 
+.btndiv {
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
 
 .reroll {
