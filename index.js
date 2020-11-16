@@ -8,6 +8,8 @@ if(pNum1 !== pNum2) {
   document.querySelector("h1").innerText = "It's a Draw!";
 }
 
+document.querySelector(".reroll").addEventListener("click", reroll);
+
 function reroll() {
   var pNum1 = Math.floor(1 + (Math.random() * 6));
   document.querySelector(".img1").setAttribute("src", "images/dice"+pNum1+".png");
