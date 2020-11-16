@@ -17,6 +17,7 @@
 
 .reroll {
   text-align: center;
+  display: inline-block;
 }
 
 body {
