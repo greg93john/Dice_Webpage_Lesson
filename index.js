@@ -20,4 +20,5 @@ function reroll() {
   } else{
     document.querySelector("h1").innerText = "It's a Draw!";
   }
+  document.querySelector(".reroll").innerText = "Re-roll Dice";
 }
